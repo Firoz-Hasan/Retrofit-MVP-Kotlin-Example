@@ -37,8 +37,13 @@ In order to understand retrofit, first you have to check the API response thorou
 </li>
 <li>
 Generally it will be either @GET or @Post HTTP request method
+  <ul>
+<li>
 @GET : you can see both key & value in the URL
+  </li>
+    <li>
 @Post : you cant see key or value, it will be send as body
+      </li></ul>
 </li>
 <li>
 In the @GET or @Post HTTP request method there can be different kind of parameters pass inside the method
@@ -69,9 +74,14 @@ Which means when getKountry is called then it gonna return <<list of country : i
 Retrofit automatically serialises the JSON response using a POJO(Plain Old Java Object) which must be defined in advanced for the JSON Structure. To serialise JSON we need a converter to convert it into Gson first. 
 </li>
 <li>
-Gson : 
+Gson : <ul>
+<li>
 Json is a FORMAT.
+  </li>
+<li>
 We need convert our data when it comes through Api so
 Object ---> Json OR Json ---> object(POJO) so thats why we need Gson.
+  </li>
+  </ul>
 </ol>
 

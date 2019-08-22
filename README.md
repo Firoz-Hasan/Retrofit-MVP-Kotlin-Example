@@ -35,6 +35,10 @@ In order to understand retrofit, first you have to check the API response thorou
 </ul>
 </li>
 </li>
+<Li>
+  Identify the structure. Json strings will either have a Map (key-value pairs) or a List of Maps.
+  Begins with curly braces? It’s a map. 
+Begins with a Square bracket? That’s a List of maps.
 <li>
 Generally it will be either @GET or @Post HTTP request method
   <ul>

@@ -20,8 +20,9 @@ class countryRepos : CountryInterface.countryModel {
         apiclient = JobAPI.client.create(JobServices::class.java)
     }
 
-    override fun getCountyNameByCapital(capital: String
-                                       ) {
+    override fun getCountyNameByCapital(capital: String,
+                                       presenter: CountryInterface.countryPresenter
+                                        ) {
         val call = apiclient?.getKountry(capital)
 
         call?.enqueue(object : Callback<List<Country>> {
@@ -35,7 +36,7 @@ class countryRepos : CountryInterface.countryModel {
                     Log.d("success", results)
                 //    countryTV?.setText(results)
                     country = results.toString()
-
+                    presenter.uiAutoUpdate()
 
                 }
 

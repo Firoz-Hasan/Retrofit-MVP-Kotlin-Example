@@ -20,9 +20,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 
 class MainActivity : AppCompatActivity(), CountryInterface.countryView {
-    override fun initView() {
-        textView.setText(presenter?.showCountry())
-    }
+
 
     override fun updateViewData() {
         textView.setText(presenter?.showCountry())

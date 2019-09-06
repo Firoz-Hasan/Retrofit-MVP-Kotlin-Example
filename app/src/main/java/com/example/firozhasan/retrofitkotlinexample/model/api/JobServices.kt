@@ -1,7 +1,7 @@
-package com.example.firozhasan.retrofitkotlinexample.api
+package com.example.firozhasan.retrofitkotlinexample.model.api
 
 import com.example.firozhasan.retrofitkotlinexample.`interface`.Constant
-import com.example.firozhasan.retrofitkotlinexample.models.Country
+import com.example.firozhasan.retrofitkotlinexample.model.modelClass.Country
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Path

@@ -1,4 +1,4 @@
-package com.example.firozhasan.retrofitkotlinexample.api
+package com.example.firozhasan.retrofitkotlinexample.model.api
 
 import com.example.firozhasan.retrofitkotlinexample.`interface`.Constant
 import retrofit2.Retrofit

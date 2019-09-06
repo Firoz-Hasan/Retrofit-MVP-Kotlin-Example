@@ -1,4 +1,4 @@
-package com.example.firozhasan.retrofitkotlinexample.models
+package com.example.firozhasan.retrofitkotlinexample.model.modelClass
 
 import com.google.gson.annotations.SerializedName
 

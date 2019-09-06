@@ -90,7 +90,6 @@ Object ---> Json OR Json ---> object(POJO) so thats why we need Gson.
   
   /* --------------------------------HOW MVP WORKS-----------------------------------------
    * MODEL :
-   * 
    * In Android, the role of a model is usually played by a data access layer
    * such as database API or REST API.
    *

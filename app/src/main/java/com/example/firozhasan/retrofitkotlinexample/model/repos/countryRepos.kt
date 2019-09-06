@@ -10,7 +10,7 @@ import retrofit2.Callback
 import retrofit2.Response
 
 class countryRepos : CountryInterface.countryModel {
-    private  var country  = ""
+    private  var country  = "bbb"
 
     override fun getCountry() = country
 
@@ -20,7 +20,8 @@ class countryRepos : CountryInterface.countryModel {
         apiclient = JobAPI.client.create(JobServices::class.java)
     }
 
-    override fun getCountyNameByCapital(capital: String) {
+    override fun getCountyNameByCapital(capital: String
+                                       ) {
         val call = apiclient?.getKountry(capital)
 
         call?.enqueue(object : Callback<List<Country>> {

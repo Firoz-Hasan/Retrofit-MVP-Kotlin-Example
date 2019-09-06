@@ -5,12 +5,11 @@ import com.example.firozhasan.retrofitkotlinexample.model.repos.countryRepos
 
 class CountryPresenter(countryView: CountryInterface.countryView) : CountryInterface.countryPresenter {
 
-
     private var view: CountryInterface.countryView = countryView
     private var model: CountryInterface.countryModel = countryRepos()
 
     init {
-      //  countryView.initView()
+        countryView.initView()
     }
 
     override fun networkcall(city: String) {

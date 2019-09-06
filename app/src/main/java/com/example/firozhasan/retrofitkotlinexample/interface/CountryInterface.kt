@@ -9,6 +9,7 @@ interface CountryInterface {
 
     interface countryView {
         fun updateViewData()
+        fun initView()
     }
 
     interface countryPresenter {

@@ -88,10 +88,10 @@ Object ---> Json OR Json ---> object(POJO) so thats why we need Gson.
   </li>
   </ul>
   
-  /* --------------------------------HOW MVP WORKS HERE-----------------------------------------
+  /* --------------------------------HOW MVP WORKS-----------------------------------------
    *
    * MODEL :
-   * is where your business logic and application data is stored.
+   * 
    * In Android, the role of a model is usually played by a data access layer
    * such as database API or REST API.
    *
@@ -122,6 +122,6 @@ Object ---> Json OR Json ---> object(POJO) so thats why we need Gson.
        The view is requesting data from the model to show to the user.
        The model is updated in the background and now the view needs to be updated to show the latest information
        The view needs to update the model according to the user interaction.
-       Presenter prides itself to handle all of this!! 😎
+       Presenter prides itself to handle all of this!!
 </ol>
 
